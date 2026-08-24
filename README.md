@@ -1,6 +1,6 @@
 ---
 
-# 🌸 Production of Aniline by Vapour-Phase Catalytic Hydrogenation of Nitrobenzene
+#  Production of Aniline by Vapour-Phase Catalytic Hydrogenation of Nitrobenzene
 
 <p align="center">
   <b>ChE453 – Capstone Project (Group 14)</b><br>
@@ -9,17 +9,17 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
-✨ This project presents the **design, simulation, and optimisation of a continuous industrial process** for the production of **Aniline** via the vapour-phase catalytic hydrogenation of **Nitrobenzene**.
+ This project presents the **design, simulation, and optimisation of a continuous industrial process** for the production of **Aniline** via the vapour-phase catalytic hydrogenation of **Nitrobenzene**.
 
 Aniline (C₆H₅NH₂) is a bulk aromatic amine and a key intermediate of the organic chemical industry — about **85%** of world production feeds into MDI (methylene diphenyl diisocyanate) for rigid polyurethane foam, insulation panels, and adhesives, with the remainder going into rubber processing chemicals, agrochemicals, dyes, and pharmaceutical intermediates.
 
-🔁 The project evolves systematically from **process/route selection and material balance** to **thermodynamic model validation and regression**, then to **flowsheet development and convergence in Aspen Plus**, with material and energy balances closing tightly against the hand calculations.
+ The project evolves systematically from **process/route selection and material balance** to **thermodynamic model validation and regression**, then to **flowsheet development and convergence in Aspen Plus**, with material and energy balances closing tightly against the hand calculations.
 
 ---
 
-## 🧪 Reaction Chemistry
+##  Reaction Chemistry
 
 **Main Reaction:**
 
@@ -39,19 +39,19 @@ Aniline (C₆H₅NH₂) is a bulk aromatic amine and a key intermediate of the o
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
-✅ Identify and justify a suitable **industrial process route** for aniline production
-✅ Specify feed/product streams and close the **overall material balance**
-✅ Perform an **input–output cost analysis** as a preliminary economic screen
-✅ Select and validate an appropriate **thermodynamic model** (including in-house parameter regression)
-✅ Develop the **process flow diagram** and synthesis logic (recycle structure, separation sequencing)
-✅ Build, specify, and **converge the flowsheet in Aspen Plus**
-✅ Verify **material and energy balance closure** against hand calculations
+1) Identify and justify a suitable **industrial process route** for aniline production
+2) Specify feed/product streams and close the **overall material balance**
+3) Perform an **input–output cost analysis** as a preliminary economic screen
+4) Select and validate an appropriate **thermodynamic model** (including in-house parameter regression)
+5) Develop the **process flow diagram** and synthesis logic (recycle structure, separation sequencing)
+6) Build, specify, and **converge the flowsheet in Aspen Plus**
+7) Verify **material and energy balance closure** against hand calculations
 
 ---
 
-## 📦 Feed & Product Specifications
+##  Feed & Product Specifications
 
 | Stream | Specification | Temp. | Pressure |
 |--------|---------------|-------|----------|
@@ -72,9 +72,9 @@ Market prices used in the economic screen (August 2026):
 
 ---
 
-## 🧱 Process Development Summary
+##  Process Development Summary
 
-### 🧩 1. Process Identification, Material Balance & Thermodynamics (Report 1)
+###  1. Process Identification, Material Balance & Thermodynamics (Report 1)
 
 * **Route selected:** vapour-phase catalytic hydrogenation of nitrobenzene (Cu/Ni catalyst), chosen over liquid-phase hydrogenation, the Béchamp process, and phenol amination for its continuous operation, high selectivity (95–98%), clean by-product (water only), and recoverable reaction heat
 * Overall material balance closed: **134.22 kmol/h** aniline product from **141.28 kmol/h** nitrobenzene reacted, with hydrogen loop (make-up, recycle, purge) balanced explicitly — purge ≈ 2% of make-up, carrying away ~1.9% of purchased hydrogen
@@ -88,7 +88,7 @@ Market prices used in the economic screen (August 2026):
 
 ---
 
-### 🔀 2. Flowsheet Development & Convergence in Aspen Plus (Report 2)
+###  2. Flowsheet Development & Convergence in Aspen Plus (Report 2)
 
 * Operating conditions fixed across all units: reactor at **300 °C, 3 bar** (catalyst operating window ~250–350 °C); flash/decanter at **40 °C** (bracketed by the regressed LLE data range of 39–70 °C)
 * **Process synthesis logic:** vapour–liquid split taken first (flash), then liquid–liquid split (decanter) to break the aniline–water azeotrope for free, before handing the residue to distillation; three recycles identified — hydrogen gas recycle, unconverted nitrobenzene recycle, and recovered aniline recycle
@@ -101,7 +101,7 @@ Market prices used in the economic screen (August 2026):
 
 ---
 
-## ⚙️ Key Technical Features (as of Report 2)
+##  Key Technical Features (as of Report 2)
 
 * Vapour-phase catalytic hydrogenation reactor (RStoic, 300 °C / 3 bar), 17.6 MW exotherm
 * Hydrogen recycle loop with compressor and controlled purge (0.86% split) to manage nitrogen build-up
@@ -112,7 +112,7 @@ Market prices used in the economic screen (August 2026):
 
 ---
 
-## 💰 Economic Results (Preliminary Screen — Report 1)
+##  Economic Results (Preliminary Screen — Report 1)
 
 | Metric | Value |
 |--------|-------|
@@ -125,7 +125,7 @@ This input–output screen considers raw materials only (nitrobenzene, hydrogen)
 
 ---
 
-## ⚠️ Limitations & Objectives Carried Forward
+##  Limitations & Objectives Carried Forward
 
 **From Report 1:**
 * Reactor performance (conversion/selectivity) is a specified assumption (RStoic block), not yet a kinetics-derived result
@@ -149,7 +149,7 @@ This input–output screen considers raw materials only (nitrobenzene, hydrogen)
 
 ---
 
-## 👥 Team Members (Group 14)
+##  Team Members (Group 14)
 
 | Member | Roll No. |
 |--------|----------|
@@ -162,6 +162,6 @@ This input–output screen considers raw materials only (nitrobenzene, hydrogen)
 
 ---
 
-✨ *This repository documents the ongoing academic capstone journey — from process/route selection and thermodynamic validation through to a converged Aspen Plus flowsheet, with further reports to follow on kinetics, column design, heat integration, and final techno-economic evaluation.*
+ *This repository documents the ongoing academic capstone journey — from process/route selection and thermodynamic validation through to a converged Aspen Plus flowsheet, with further reports to follow on kinetics, column design, heat integration, and final techno-economic evaluation.*
 
 ---
