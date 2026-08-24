@@ -99,6 +99,10 @@ Market prices used in the economic screen (August 2026):
 * Product stream at this stage: **97.04 wt% aniline** (limited by residual water, cyclohexylamine, and nitrobenzene — still above the 5 ppm nitrobenzene spec), flagged for sharper column design in the next report
 * Total heating **22.48 MW**, total cooling **45.16 MW**, against a **17.57 MW** reaction exotherm — heat integration beyond the single feed–effluent exchanger identified as future work
 
+<p align="center">
+  <img src="images/FLOWSHEET_upto_week4.png" alt="Flowsheet of the Process" width="750">
+</p
+
 ---
 
 ##  Key Technical Features (as of Report 2)
