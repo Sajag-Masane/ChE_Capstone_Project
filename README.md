@@ -86,6 +86,10 @@ Market prices used in the economic screen (August 2026):
 * Regression validated independently against a held-out azeotropic data set: predicted azeotrope at **99.34 °C, x_aniline = 0.0368** vs. experimental **98.97 °C, x_aniline = 0.04** (agreement within 0.37 K)
 * Confirmed a **heterogeneous aniline–water azeotrope**, meaning a decanter (not a distillation column) is required to break this pair
 
+  <p align="center">
+  <img src="images/BD.png" alt="Block Diagram of the Process" width="750">
+  </p
+
 ---
 
 ###  2. Flowsheet Development & Convergence in Aspen Plus (Report 2)
